@@ -8,7 +8,14 @@ body {
     background: rgb(120,96,64);
     font-family: "Times New Roman", serif;
 }
-
+#formContainer{
+    width: 650px;
+    margin: 20px auto;
+    background: white;
+    border: 15px solid darkblue;
+    border-radius: 40px;
+    overflow: hidden;
+}
 form input {
     padding: 5px;
 }
