@@ -17,31 +17,37 @@
     </style>
 
 
-
+    <link rel="stylesheet" href="signupstyles.css">
 
 </head>
 
 <body>
     <div id="formContainer">
-        <img src="images/jesus_feeds_5000.jpeg" alt="" class="topimg">
+        <div class="topimgcontainer">
+            <img src="images/jesus_feeds_5000.jpeg" alt="" class="topimg">
+        </div>
         <h3>Sign Up for Daily Scripture Feed</h3>
         <form id="myForm">
             <button type="button" id="closeBtn">X</button>
-            <label for="username">User Name:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label>Gender:</label>
             <div>
-                <input type="radio" id="male" name="gender" value="male" required>
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female" required>
-                <label for="female">Female</label>
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div><label for="password">Password:</label>
+            <input type="password" id="password" name="password" required></div>
+
+            <div><label for="email">Email:</label>
+            <input type="email" id="email" name="email" required></div>
+
+            <div>
+                <label>Gender:</label>
+                <!-- <div> -->
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                <!-- </div> -->
             </div>
 
             <section>
